@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/xkiqyhmi//public_html/wp-content/plugins/youtube-gallery-playlist
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp youtube-gallery-playlist.php $DEPLOYPATH
